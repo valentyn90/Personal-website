@@ -136,7 +136,7 @@ h1.main,p.demos {
 	bottom: 100px;
 	margin-left: -50px;
 	text-align: center;
-	line-height: 100px;
+	line-height: 93px;
 	width: 100px;
 	height: 100px;
 	background: #fff;
@@ -330,4 +330,10 @@ h1.main,p.demos {
 		opacity: 1;
 		transform: scale(1) rotate(0deg);
 	}
+}
+
+.fa-link {
+	position: absolute;
+    left: 41%;
+    top: 63%;
 }
