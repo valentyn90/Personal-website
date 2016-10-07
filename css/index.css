@@ -1,23 +1,18 @@
-@font-face {
-  font-family: 'Electrolize';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-}
+@import 'https://fonts.googleapis.com/css?family=Electrolize';
 
 body {
 	background: #310404 url(../img/index-bg.png) repeat top left;
-	font-family: 'Electrolize';
+	font-family: 'Electrolize', sans-serif;
 }
 
 .container{
 	width: 100%;
 	position: relative;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 h1.main,p.demos {
