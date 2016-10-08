@@ -26,11 +26,12 @@ body {
   background-image: url(../img/home-bg.jpg);
   background-size: cover;
   background-position: initial;
+  border: 10px solid yellow;
 }
 
 
-/* ====================================
-Navigation 
+/*====================================
+        Navigation 
 ==================================== */
 
 .overlay-navigation {
@@ -416,7 +417,7 @@ Animation keyframes
 video { 
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 15%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -434,13 +435,14 @@ video {
 #about-simran { 
   font-family: sans-serif;
   font-weight:100; 
-  background: rgba(0,0,0,0.3);
   color: white;
   padding: 2rem;
   width: 33%;
   margin:2rem;
   float: right;
   font-size: 1.2rem;
+  margin-top: 4rem;
+  border-left: 10px solid yellow;
 }
 h1 {
   font-size: 3rem;
@@ -464,6 +466,64 @@ h1 {
 #about-simran button:hover { 
    background: rgba(0,0,0,0.5);
 }
+#about-simran .social-links {
+  background-color: #ccc;
+}
+#about-simran .social-links ul {
+  list-style: none;
+  display: flex;
+  overflow-x: scroll; 
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,0,0,0.4); 
+}
+#about-simran .social-links .fa {
+  color: #fff;
+  padding: 1.5rem;
+  border: 1px solid transparent;
+}
+#about-simran .social-links .fa:hover {
+  border: 1px solid #f4f4f4;
+}
+#about-simran .social-links .fa-facebook {
+  background-color: #3b5998;
+}
+#about-simran .social-links .fa-twitter {
+  background-color: #1da1f2;
+}
+#about-simran .social-links .fa-linkedin {
+  background-color: #0077b5;
+}
+#about-simran .social-links .fa-pinterest {
+  background-color: #bd081c;
+}
+#about-simran .social-links .fa-behance {
+  background-color: #1769ff;
+}
+#about-simran .social-links .fa-vimeo {
+  background-color: #1ab7ea;
+}
+
+
 
 a {
   display: inline-block;
@@ -487,14 +547,9 @@ a:hover{
 /*=================================*/
 /*----------- About ---------------
 /*=================================*/
-/*.home-about {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background-image: url(../img/about-bg.jpg);
-  background-size: cover;
-  background-position: center center;
-}*/
+.home-about {
+  border: 10px solid yellow;
+}
 .cd-horizontal-timeline {
   /*position: absolute;
   top: 0;
@@ -888,6 +943,7 @@ a:hover{
   background-image: url(../img/work-bg.jpg);
   background-size: cover;
   background-position: center center;
+  border: 10px solid yellow;
 }
 .small {
   font-size: 11px;
@@ -1117,6 +1173,7 @@ a:hover{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border: 10px solid yellow;
 }
 #contact-info {
   background-color: #222;
