@@ -1204,16 +1204,61 @@ a:hover{
   margin-bottom: 1rem;
 }
 #skill-button {
-  text-align: center;
+  margin: 0 auto;
+  max-width: 40%;
 }
-.md-trigger {
-  background-color: #1167a8;
+.md-close {
+  border: none;
+  padding: 0.7em 1.3em;
+  background: #c0392b;
   color: #fff;
-  padding: 2rem 3.5rem;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  margin: 3px 2px;
+  border-radius: 2px;
 }
-
+.first-row, .second-row {
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+.dance {
+    background: url(../img/dance.png) no-repeat center;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.recitation {
+    background: url(../img/recitation.png) no-repeat center;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.consultant {
+    background: url(../img/consultant.png) no-repeat center;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.model {
+    background: url(../img/model.png) no-repeat center;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
 
 .md-modal {
+  background-color: #4C5B5C;
   position: fixed;
   top: 50%;
   left: 50%;

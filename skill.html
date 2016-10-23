@@ -71,7 +71,7 @@
   <section id="skill-intro">
     <h1>This is what I do</h1>
     <p>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc. <br>
-    Click on the buttons for details</p>
+    Click on the images for details</p>
   </section>
 
   <!-- Modal & Main Content -->
@@ -92,10 +92,14 @@
       </div>
     </div>
 
-    <button class="md-trigger" data-modal="modal">Classical Dance</button>
-    <button class="md-trigger" data-modal="modal">Recitation</button>
-    <button class="md-trigger" data-modal="modal">Beauty Consultant</button>
-    <button class="md-trigger" data-modal="modal">Freelance Model</button>
+    <div class="first-row">
+      <div class="md-trigger dance" data-modal="modal"></div>
+      <div class="md-trigger recitation" data-modal="modal"></div>
+    </div>
+    <div class="second-row">
+      <div class="md-trigger consultant" data-modal="modal"></div>
+      <div class="md-trigger model" data-modal="modal"></div>
+    </div>
 
     <div class="md-overlay"></div><!-- the overlay element -->
     
