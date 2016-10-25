@@ -1177,12 +1177,48 @@ a:hover{
 .home-contact h1 {
   margin-top: 15%;
   margin-bottom: 1%;
+  text-shadow: 2px 2px 2px #fff;
 }
 .home-contact p {
   color: #fff;
   text-align: center;
   font-size: 1.3rem;
 }
+/* Animations */
+.anim-fadeZoom{
+  animation: fadeZoom 2s cubic-bezier(0.175, 0.885, 0.320, 1.275) 100ms 1 normal both;  
+}
+@keyframes fadeZoom{
+ 0%{
+    opacity: 0;
+    transform: scale(.5);
+  }
+  50%{   
+    transform: scale(1.5);
+  }
+  75%{
+    transform: scale(.5);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.anim-down2up{
+  animation: down2up 2s cubic-bezier(0.660, 0.005, 0.400, 1.590) 1.5s 1 normal both;  
+}
+@keyframes down2up{
+  0%{
+    opacity: 0;
+    transform: translateY(100%);    
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);    
+  }
+}
+
 .home-contact p .fb {
   color: #3b5998;
 }
