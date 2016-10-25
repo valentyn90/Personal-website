@@ -77,29 +77,32 @@
   <!-- Modal & Main Content -->
   <section id="skill-button">
 
-    <div class="md-modal md-effect" id="modal">
+    <div class="md-modal md-effect" id="modal-dance">
       <div class="md-content">
-        <h3>Modal Dialog</h3>
+        <h3>Dance</h3>
         <div>
-          <p>This is a modal window. You can do the following things with it:</p>
-          <ul>
-            <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-            <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-            <li><strong>Close:</strong> click on the button below to close the modal.</li>
-          </ul>
+          <p>
+            Dance is a performance art form consisting of purposefully selected sequences of human movement. This movement has aesthetic and symbolic value, and is acknowledged as dance by performers and observers within a particular culture.[nb 1] Dance can be categorized and described by its choreography, by its repertoire of movements, or by its historical period or place of origin.
+          </p>
           <button class="md-close">Close me!</button>
         </div>
       </div>
     </div>
 
-    <div class="first-row">
-      <div class="md-trigger dance" data-modal="modal"></div>
-      <div class="md-trigger recitation" data-modal="modal"></div>
+    <div class="md-modal md-effect" id="modal-recitation">
+      <div class="md-content">
+        <h3>Recitation</h3>
+        <div>
+          <p>
+            In academia, recitation is a presentation made by a student to demonstrate knowledge of a subject or to provide instruction to others. In some academic institutions the term is used for a presentation by a teaching assistant or instructor, under the guidance of a senior faculty member, that supplements course materials. In recitations that supplement lectures, the leader will often review the lecture, expand on the concepts, and carry on a discussion with the students.
+          </p>
+          <button class="md-close">Close me!</button>
+        </div>
+      </div>
     </div>
-    <div class="second-row">
-      <div class="md-trigger consultant" data-modal="modal"></div>
-      <div class="md-trigger model" data-modal="modal"></div>
-    </div>
+
+    <div class="md-trigger dance" data-modal="modal-dance"></div>
+    <div class="md-trigger recitation" data-modal="modal-recitation"></div>
 
     <div class="md-overlay"></div><!-- the overlay element -->
     
