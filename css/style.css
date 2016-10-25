@@ -1174,6 +1174,24 @@ a:hover{
   background-position: center;
   border: 10px solid yellow;
 }
+.home-contact h1 {
+  margin-top: 15%;
+  margin-bottom: 1%;
+}
+.home-contact p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.home-contact p .fb {
+  color: #3b5998;
+}
+.home-contact p .tw {
+  color: #1da1f2;
+}
+.home-contact p .pin {
+  color: #bd081c;
+}
 #contact-info {
   background-color: #222;
 }
@@ -1183,12 +1201,16 @@ a:hover{
 }
 #contact-info .container .social-links {
   width: 40%;
-  margin-left: 3rem;
+  text-align: center;
+  margin-top: 6%;
+}
+#contact-info .container .social-links li {
+  padding: 20px;
+  border: 0.3px solid #fff;
 }
 #contact-info .container .google-map {
   width: 60%;
 }
-
 
 /*===========================================================*/
 /*----------------------- Skill Page ------------------------*/
