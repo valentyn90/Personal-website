@@ -55,7 +55,7 @@ h1.main,p.demos {
 }
 .sp-container h2 {
 	position: absolute;
-	top: 50%;
+	top: 25%;
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
