@@ -422,7 +422,7 @@ Animation keyframes
 video { 
   position: fixed;
   top: 50%;
-  left: 15%;
+  left: 8%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -442,7 +442,7 @@ video {
   font-weight:100; 
   color: white;
   padding: 2rem;
-  width: 33%;
+  width: 40%;
   margin:2rem;
   float: right;
   font-size: 1.2rem;
@@ -454,11 +454,15 @@ h1 {
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
+  margin-bottom: 0.5rem;
+}
+#about-simran p {
+  line-height: 1.3;
 }
 #about-simran button { 
   display: block;
-  width: 80%;
-  padding: .4rem;
+  width: 40%;
+  padding: .7rem;
   border: none; 
   margin: 1rem auto; 
   font-size: 1.3rem;
@@ -473,6 +477,7 @@ h1 {
 }
 #about-simran .social-links {
   background-color: #ccc;
+  margin-top: 2rem;
 }
 #about-simran .social-links ul {
   list-style: none;
